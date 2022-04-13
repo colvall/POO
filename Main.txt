@@ -4,7 +4,7 @@ public class Main {
     
     public static void main(String[] args) {
     
-        final int MAX = 100;
+        final int MAX = 200;
         
         Client c1 = new Client("Jean", "Dupont", "1 rue de la paix", 4523);
         Client c2 = new Client("Paul", "Mercier", "2 rue de la porte", 2024);
