@@ -3,12 +3,14 @@ package examen;
 public class Main {
     
     public static void main(String[] args) {
+    
+        final int MAX = 100;
         
         Client c1 = new Client("Jean", "Dupont", "1 rue de la paix", 4523);
         Client c2 = new Client("Paul", "Mercier", "2 rue de la porte", 2024);
         Client c3 = new Client("Jacques", "Lafleur", "3 rue Ormes", 1111);
         Client c4 = new Client("Pierre", "Laporte", "4 du Casino", 458);
-        Client c5 = new Client("Marie", "Côté", "5 rue des arbrisseaux", 887);
+        Client c5 = new Client("Marie", "CÃ´tÃ©", "5 rue des arbrisseaux", 887);
         Client c6 = new Client("Pauline", "Maroie", "6 des floralies", 1500);
         
         
@@ -26,7 +28,7 @@ public class Main {
         System.out.println("Palier 2 : " + l.rechercherPalier(2));
         System.out.println("Palier 3 : " + l.rechercherPalier(3));
 
-        System.out.println("\nClient ayant le plus d'électricité : ");
+        System.out.println("\nClient ayant le plus d'Ã©lectricitÃ© : ");
         System.out.println(l.consommationMax());
         
     }
